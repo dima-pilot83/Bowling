@@ -10,10 +10,10 @@ public class BowlingData {
 			if (inputNum >= 0 && inputNum <= 9) {
 				return ("ordinary");
 			}
-			if (inputNum == 10 && (strikeNum % 2) == 0) { // chetnoe
+			if (inputNum == 10 && (strikeNum % 2) == 0) { 
 				return ("spare");
 			}
-			if (inputNum == 10 && (strikeNum % 2) != 0) { // NEchetnoe
+			if (inputNum == 10 && (strikeNum % 2) != 0) { 
 				return ("strike");
 			}
 		} catch (Exception ex) {
